@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    class Book
+    public class Book
     {
         private Title _title;
         private Author _author;

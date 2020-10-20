@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task2
 {
-    class Rectangle
+    public class Rectangle
     {
         double _side1;
         double _side2;
@@ -24,15 +24,18 @@ namespace Task2
                 return PerimeterCalculator();
             }
         }
+
         public Rectangle(double side1, double side2)
         {
             _side1 = side1;
             _side2 = side2;
         }
+
         public Rectangle()
         {
 
         }
+
         public double AreaCalculator()
         {
             return _side1 * _side2;

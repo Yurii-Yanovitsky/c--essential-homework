@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    class Content
+    public class Content
     {
         string _text;
         public string Text

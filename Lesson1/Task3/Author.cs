@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    class Author
+    public class Author
     {
         string _name;
         public string Name
