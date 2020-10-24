@@ -19,7 +19,6 @@ namespace AdditionalTask
             LastName = lastName;
             Age = age;
             _date = DateTime.Now;
-
         }
 
         public string Login { get; } = "No Login";
