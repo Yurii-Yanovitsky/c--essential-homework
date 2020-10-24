@@ -4,10 +4,10 @@ namespace Task4
 {
     class Invoice
     {
-        private readonly int _account;
-        private readonly string _customer;
-        private readonly string _provider;
-        private readonly double _ndcKoef;
+        public readonly int _account;
+        public readonly string _customer;
+        public readonly string _provider;
+        public readonly double _ndcKoef;
 
         public Invoice(int account, string customer, string provider, double ndcKoef)
         {
@@ -15,10 +15,6 @@ namespace Task4
             _customer = customer;
             _provider = provider;
             _ndcKoef = ndcKoef;
-        }
-
-        public Invoice()
-        {
         }
 
         public string Article { get; set; }
