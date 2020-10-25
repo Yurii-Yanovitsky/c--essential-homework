@@ -8,8 +8,8 @@ namespace Task2
 {
     public class Rectangle
     {
-        double _side1;
-        double _side2;
+        private double _side1;
+        private double _side2;
         public double Area
         {
             get
