@@ -16,11 +16,6 @@ namespace Task2
             Initialize(side1, side2);
         }
 
-        public Rectangle()
-        {
-
-        }
-
         public double Area
         {
             get
