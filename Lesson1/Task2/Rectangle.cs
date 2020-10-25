@@ -10,6 +10,17 @@ namespace Task2
     {
         private double _side1;
         private double _side2;
+
+        public Rectangle(double side1, double side2)
+        {
+            Initialize(side1, side2);
+        }
+
+        public Rectangle()
+        {
+
+        }
+
         public double Area
         {
             get
@@ -25,17 +36,6 @@ namespace Task2
             }
         }
 
-        public Rectangle(double side1, double side2)
-        {
-            _side1 = side1;
-            _side2 = side2;
-        }
-
-        public Rectangle()
-        {
-
-        }
-
         public double AreaCalculator()
         {
             return _side1 * _side2;
@@ -43,6 +43,21 @@ namespace Task2
         public double PerimeterCalculator()
         {
             return 2 * (_side1 + _side2);
+        }
+
+        private void Initialize(double side1, double side2)
+        {
+            if (side1 <= 0 || side2 <= 0)
+            {
+                _side1 = 0;
+                _side2 = 0;
+                Console.WriteLine("Side(s) cannot be negative or zero!");
+            }
+            else
+            {
+                _side1 = side1;
+                _side2 = side2;
+            }
         }
     }
 }
