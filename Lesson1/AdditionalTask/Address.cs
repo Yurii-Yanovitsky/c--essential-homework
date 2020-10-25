@@ -8,12 +8,12 @@ namespace AdditionalTask
 {
     public class Address
     {
-        int _index;
-        string _country;
-        string _city;
-        string _street;
-        int _house;
-        int _apartment;
+        private int _index;
+        private string _country;
+        private string _city;
+        private string _street;
+        private int _house;
+        private int _apartment;
 
         public Address(int index, string country, string city, string street, int house, int apartment)
         {
