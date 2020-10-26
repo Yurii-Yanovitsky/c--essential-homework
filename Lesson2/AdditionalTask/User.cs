@@ -7,11 +7,6 @@ namespace AdditionalTask
         public readonly DateTime _date;
         private int _age;
 
-        public User()
-        {
-            _date = DateTime.Now;
-        }
-
         public User(string login, string name, string lastName, int age)
         {
             Login = login;
@@ -21,9 +16,9 @@ namespace AdditionalTask
             _date = DateTime.Now;
         }
 
-        public string Login { get; } = "No Login";
-        public string Name { get; } = "No Name";
-        public string LastName { get; } = "No LastName";
+        public string Login { get; }
+        public string Name { get; }
+        public string LastName { get; }
         public int Age
         {
             get
