@@ -6,12 +6,7 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            Invoice invoice = new Invoice(324235, "Frank", "SKODA", 0.2)
-            {
-                Article = "Skoda Octavia",
-                Quantity = 1,
-                UnitCost = 11000,
-            };
+            Invoice invoice = new Invoice(324235, "Frank", "SKODA", "Skoda Octavia", 1, 11000, 0.2);
 
             invoice.CalculatePaymenAmount(true);
             invoice.CalculatePaymenAmount(false);

@@ -4,22 +4,24 @@ namespace Task4
 {
     class Invoice
     {
-        public readonly int _account;
-        public readonly string _customer;
-        public readonly string _provider;
-        public readonly double _ndcKoef;
+        private readonly double _ndcKoef;
 
-        public Invoice(int account, string customer, string provider, double ndcKoef)
+        public Invoice(int account, string customer, string provider, string article, int quantity, int unitCost, double ndcKoef)
         {
-            _account = account;
-            _customer = customer;
-            _provider = provider;
+            Account = account;
+            Customer = customer;
+            Provider = provider;
+            Article = article;
+            Quantity = quantity;
+            UnitCost = unitCost;
             _ndcKoef = ndcKoef;
         }
-
-        public string Article { get; set; }
-        public int Quantity { get; set; }
-        public double UnitCost { get; set; }
+        public int Account { get; }
+        public string Customer { get; }
+        public string Provider { get; }
+        public string Article { get; }
+        public int Quantity { get; }
+        public double UnitCost { get; }
 
         public void CalculatePaymenAmount(bool isNdc)
         {
