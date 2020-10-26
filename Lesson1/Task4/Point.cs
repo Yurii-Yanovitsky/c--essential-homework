@@ -8,9 +8,9 @@ namespace Task4
 {
     public class Point
     {
-        double _x;
-        double _y;
-        string _pointName;
+        private double _x;
+        private double _y;
+        private string _pointName;
         public double X
         {
             get
