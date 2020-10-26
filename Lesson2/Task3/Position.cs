@@ -3,10 +3,10 @@
     public class Position
     {
         public string Name { get; }
-        public decimal InitialSalary { get; }
-        public decimal SalaryKoef { get; }
+        public double InitialSalary { get; }
+        public double SalaryKoef { get; }
 
-        public Position(string name, decimal salary, decimal salaryKoef)
+        public Position(string name, double salary, double salaryKoef)
         {
             Name = name;
             InitialSalary = salary;

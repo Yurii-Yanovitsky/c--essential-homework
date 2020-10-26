@@ -2,21 +2,21 @@
 {
     public class FinancialCalculator
     {
-        private readonly decimal _taxPercent;
-        private readonly decimal _expiriencePercent;
+        private readonly double _taxPercent;
+        private readonly double _experienceCoefficient;
 
-        public FinancialCalculator(decimal taxPercent, decimal expiriencePercent)
+        public FinancialCalculator(double taxPercent, double expiriencePercent)
         {
             _taxPercent = taxPercent;
-            _expiriencePercent = expiriencePercent;
+            _experienceCoefficient = expiriencePercent;
         }
 
-        public decimal CalculateSalary(Employee emp)
+        public double CalculateSalary(Employee emp)
         {
 
-            return emp.Position.InitialSalary * emp.Position.SalaryKoef + emp.Position.InitialSalary * emp.WorkExperience * _expiriencePercent;
+            return emp.Position.InitialSalary * emp.Position.SalaryKoef + emp.Position.InitialSalary * emp.WorkExperience * _experienceCoefficient;
         }
-        public decimal CalculateTax(Employee emp)
+        public double CalculateTax(Employee emp)
         {
             return CalculateSalary(emp) * _taxPercent;
         }

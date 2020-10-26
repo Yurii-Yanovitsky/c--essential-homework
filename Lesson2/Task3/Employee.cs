@@ -14,5 +14,11 @@
         public string LastName { get; }
         public Position Position { get; }
         public int WorkExperience { get; set; }
+
+        public double CalculateSalary(double taxPercent, double experienceCoefficient)
+        {
+            double salaryWithoutTax = Position.InitialSalary * Position.SalaryKoef + Position.InitialSalary * WorkExperience * experienceCoefficient;
+            return salaryWithoutTax - salaryWithoutTax * taxPercent;
+        }
     }
 }
