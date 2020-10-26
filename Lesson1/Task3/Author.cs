@@ -8,7 +8,7 @@ namespace Task3
 {
     public class Author
     {
-        string _name;
+        private string _name;
         public string Name
         {
             get

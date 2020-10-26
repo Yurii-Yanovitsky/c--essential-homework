@@ -8,7 +8,7 @@ namespace Task3
 {
     public class Title
     {
-        string _text;
+        private string _text;
         public string Text
         {
             get

@@ -8,7 +8,7 @@ namespace Task3
 {
     public class Content
     {
-        string _text;
+        private string _text;
         public string Text
         {
             get
