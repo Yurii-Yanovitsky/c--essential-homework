@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A334744-8307-40A6-9DDC-CBC79B51A6B0}</ProjectGuid>
+    <ProjectGuid>{93AAB2DA-3821-4DAC-9768-1D178C2B096F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task2</RootNamespace>
-    <AssemblyName>Task2</AssemblyName>
+    <RootNamespace>Task3</RootNamespace>
+    <AssemblyName>Task3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractHandler.cs" />
-    <Compile Include="DOCHandler.cs" />
-    <Compile Include="Editor.cs" />
+    <Compile Include="IPlayable.cs" />
+    <Compile Include="IRecordable.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TXTHandler.cs" />
-    <Compile Include="XMLHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
