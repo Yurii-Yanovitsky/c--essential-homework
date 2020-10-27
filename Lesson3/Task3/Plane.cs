@@ -2,7 +2,7 @@
 
 namespace Task3
 {
-    class Plane : Vehicle
+    public class Plane : Vehicle
     {
         private int _height;
         private int _passangers;

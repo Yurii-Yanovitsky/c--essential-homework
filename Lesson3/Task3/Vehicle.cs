@@ -2,7 +2,7 @@
 
 namespace Task3
 {
-    class Vehicle
+    public class Vehicle
     {
         private int _xCoordinate;
         private int _yCoordinate;

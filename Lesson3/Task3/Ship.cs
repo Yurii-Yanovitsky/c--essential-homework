@@ -2,7 +2,7 @@
 
 namespace Task3
 {
-    class Ship : Vehicle
+    public class Ship : Vehicle
     {
         private string _port;
         private int _passangers;
