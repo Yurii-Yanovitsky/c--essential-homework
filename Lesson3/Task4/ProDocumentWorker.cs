@@ -4,10 +4,6 @@ namespace Task4
 {
     class ProDocumentWorker : DocumentWorker
     {
-        //public override void OpenDocument()
-        //{
-        //    Console.WriteLine();
-        //}
         public override void EditDocument()
         {
             Console.WriteLine("Документ отредактирован");
