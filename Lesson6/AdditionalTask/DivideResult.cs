@@ -1,5 +1,4 @@
-﻿
-namespace AdditionalTask
+﻿namespace AdditionalTask
 {
     public class DivideResult
     {
