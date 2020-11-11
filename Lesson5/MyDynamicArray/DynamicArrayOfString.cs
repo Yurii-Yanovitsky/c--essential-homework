@@ -6,7 +6,6 @@ namespace MyDynamicArray
     {
         private const int _defaultSize = 4;
         private string[] _stringArray;
-        private int _length;
 
         public DynamicArrayOfString() : this(_defaultSize)
         {
@@ -14,23 +13,12 @@ namespace MyDynamicArray
 
         public DynamicArrayOfString(int initialSize)
         {
-            //Length = 0;
             Size = initialSize;
             _stringArray = new string[initialSize];
         }
 
         public int Size { get; private set; }
-        public int Length
-        {
-            get
-            {
-                return GetLength();
-            }
-            private set
-            {
-                _length = GetLength() + value;
-            }
-        }
+        public int Length => GetLength();
 
         public string this[int index]
         {
@@ -62,7 +50,7 @@ namespace MyDynamicArray
         {
             if (Size > Length)
             {
-                _stringArray[Length++] = stringItem;
+                _stringArray[Length] = stringItem;
             }
             else
             {
