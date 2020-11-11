@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{4A334744-8307-40A6-9DDC-CBC79B51A6B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{93AAB2DA-3821-4DAC-9768-1D178C2B096F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionalTask", "AdditionalTask\AdditionalTask.csproj", "{02672F97-6D42-42DC-88D4-B62A5F2FF921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A334744-8307-40A6-9DDC-CBC79B51A6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A334744-8307-40A6-9DDC-CBC79B51A6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A334744-8307-40A6-9DDC-CBC79B51A6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A334744-8307-40A6-9DDC-CBC79B51A6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AAB2DA-3821-4DAC-9768-1D178C2B096F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AAB2DA-3821-4DAC-9768-1D178C2B096F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AAB2DA-3821-4DAC-9768-1D178C2B096F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AAB2DA-3821-4DAC-9768-1D178C2B096F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02672F97-6D42-42DC-88D4-B62A5F2FF921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02672F97-6D42-42DC-88D4-B62A5F2FF921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02672F97-6D42-42DC-88D4-B62A5F2FF921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02672F97-6D42-42DC-88D4-B62A5F2FF921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA9BF751-87E3-4375-AA3E-C3799F14D9A6}
+	EndGlobalSection
+EndGlobal
