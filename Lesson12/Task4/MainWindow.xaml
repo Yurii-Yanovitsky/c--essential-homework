@@ -1,0 +1,27 @@
+﻿<Window x:Class="Task4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="249.5" Width="410.8">
+    <Grid x:Name="Calculator" Margin="0,0,3.4,13.6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="AddButtom" Content="+" HorizontalAlignment="Left" Margin="332,22,0,0" VerticalAlignment="Top" Width="40" FontSize="18" Click="Add_Click" Grid.Column="1"/>
+        <Button x:Name="SubtractButton" Content="-" HorizontalAlignment="Left" Margin="332,69,0,0" VerticalAlignment="Top" Width="40" FontSize="18" Click="Subtract_Click" Grid.Column="1"/>
+        <Button x:Name="MulButton" Content="*" HorizontalAlignment="Left" Margin="332,114,0,0" VerticalAlignment="Top" Width="40" FontSize="18" Click="Mul_Click" Grid.Column="1"/>
+        <Button x:Name="DivideButton" Content="/" HorizontalAlignment="Left" Margin="332,153,0,0" VerticalAlignment="Top" Width="40" FontSize="18" Click="Divide_Click" Grid.Column="1" RenderTransformOrigin="0.485,0.772"/>
+        <TextBox x:Name="Operant1_TextBox" Margin="124,43,0,133.4" TextWrapping="Wrap" Width="150" FontSize="16" HorizontalAlignment="Left" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,43,0,0" TextWrapping="Wrap" Text="a:" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="2.188,0.581" Width="44" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,90,0,0" TextWrapping="Wrap" Text="b:" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="2.188,0.581" Width="44" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,147,0,0" TextWrapping="Wrap" Text="Result:" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="2.188,0.581" Width="65" Height="27" Grid.Column="1"/>
+        <TextBox x:Name="Operant2_TextBox" Margin="124,90,0,86.4" TextWrapping="Wrap" Width="150" FontSize="16" HorizontalAlignment="Left" Grid.Column="1"/>
+        <TextBlock x:Name="Result_TextBox" Grid.Column="1" HorizontalAlignment="Left" Margin="124,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="30" FontSize="16"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" HorizontalAlignment="Left" Margin="124,147,0,26.4" Width="150"/>
+
+    </Grid>
+</Window>
