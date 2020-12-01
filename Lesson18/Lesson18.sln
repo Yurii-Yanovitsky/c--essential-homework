@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructs", "ClassLibrary\DataStructs.csproj", "{18F258A3-FA04-4A90-8480-D53310BAB20D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{67A07BD3-11EF-43AB-8A00-415EDDC1ADC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18F258A3-FA04-4A90-8480-D53310BAB20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F258A3-FA04-4A90-8480-D53310BAB20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F258A3-FA04-4A90-8480-D53310BAB20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F258A3-FA04-4A90-8480-D53310BAB20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A07BD3-11EF-43AB-8A00-415EDDC1ADC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A07BD3-11EF-43AB-8A00-415EDDC1ADC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A07BD3-11EF-43AB-8A00-415EDDC1ADC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A07BD3-11EF-43AB-8A00-415EDDC1ADC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6915D73-41E8-4212-8446-6EF6978D3357}
+	EndGlobalSection
+EndGlobal
